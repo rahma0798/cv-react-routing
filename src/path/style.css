@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body {
+  margin: 0;
+  font-family: 'Raleway';
+  font-size: 16px;
+  line-height: 1.8em;
+}
+
+a {
+  color: #100cdb;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+article {
+  padding:0 1em;
+}
+
+section{
+  margin: 1em;
+  padding: 1em;
+}
+
+.head{
+  padding: 14em;
+  text-align: center;
+  background-image: url('./bg.jpeg');
+  background-size: cover;
+  background-position: fixed;
+  color: white;
+}
+
+.head_c{
+  text-align: center;
+  background-color: #ffffff;
+  color: #332021;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+header, main, footer {
+  margin: 0 auto;
+}
+
+header {
+  padding-bottom: 4em;
+  text-align: center;
+  background-image: url('./bg.jpeg');
+  background-size: cover;
+  background-position: fixed;
+  color: white;
+}
+
+header section {
+  margin: 0 auto;
+  max-width: 640px;
+}
+
+header img {
+  margin: 2em;
+  border-radius: 100%;
+  max-width: 200px;
+}
+
+.quo{
+  padding: 10em;
+  text-align: center;
+  background-color: #ffffff;
+  color: #47a1ad;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  /* margin: 1em 0; */
+}
+
+h3 {
+  text-transform: uppercase;
+}
+
+h3, h4 {
+  font-weight: bold;
+}
+
+main {
+  max-width: 1140px;
+}
+
+main section:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+}
+
+.fab, .fas {
+  border: 1px solid white;
+  border-radius: 50%;
+  font-size: 1.5em;
+  width: 1.5em;
+  height: 1.5em;
+  line-height: 1.5em;
+  margin: 5px;
+  text-align: center;
+}
+
+a .fab, .fas {
+  color: white;
+}
+
+.experience, .skills {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.experience .title {
+  color: #47a1ad;
+  flex: 0 0 33.3%;
+  max-width: 33%;
+}
+
+.experience .descrition {
+  flex: 0 0 66.6%;
+  max-width: 66.6%;
+}
+
+.experience .descrition p {
+  padding-left: 1em;
+}
+
+.skills .column {
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding-bottom: 3em;
+}
+
+.skills .column ul {
+  list-style-type: none;
+}
+
+.skills .column ul > li:before {
+  content: "►";
+  padding-right: 0.5em;
+  color: #47a1ad;
+}
+
+.school {
+  text-transform: capitalize;
+}
+
+.school span{
+  color: #47a1ad;
+  text-decoration: underline;
+}
+
+footer {
+ padding: 1em 1.5em;
+ background: #f3f3f3;
+ text-align: right;
+ color: #332021;
+}
+
+@media only screen and (max-width: 768px) {
+  .experience {
+    display: block;
+  }
+
+  .experience .title, .experience .descrition {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .skills {
+    display: block;
+  }
+
+  .skills .column {
+    max-width: 100%;
+  }
+
+}
