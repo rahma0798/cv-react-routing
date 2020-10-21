@@ -10,7 +10,7 @@ function Profile() {
         <section>
             <p className="desc">
             Hi, I'm Rahma. I’m a fresh graduate from Telkom university as a
-            computer science graduate (Informatics) with a bachelors degree in
+            computer science graduate (Informatics) with a bachelor degree in
             2020.
             </p>
         </section>
