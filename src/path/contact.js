@@ -9,7 +9,7 @@ const Contact = () => {
           <a href="mailto:rtian072@gmail.com">
             <div>E-mail</div>
           </a>
-          <a href="https://api.whatsapp.com/send?phone=6281313067790">
+          <a href="https://api.whatsapp.com/send?phone=6282216649126">
             <div>Whatsapp</div>
           </a>
           <a href="https://www.facebook.com/rverlians/">
